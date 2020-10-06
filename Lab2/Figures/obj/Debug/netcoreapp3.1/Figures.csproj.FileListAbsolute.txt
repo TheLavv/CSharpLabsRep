@@ -1,0 +1,13 @@
+D:\Visual Studio\C#Labs\Lab2\Figures\bin\Debug\netcoreapp3.1\Figures.exe
+D:\Visual Studio\C#Labs\Lab2\Figures\bin\Debug\netcoreapp3.1\Figures.deps.json
+D:\Visual Studio\C#Labs\Lab2\Figures\bin\Debug\netcoreapp3.1\Figures.runtimeconfig.json
+D:\Visual Studio\C#Labs\Lab2\Figures\bin\Debug\netcoreapp3.1\Figures.runtimeconfig.dev.json
+D:\Visual Studio\C#Labs\Lab2\Figures\bin\Debug\netcoreapp3.1\Figures.dll
+D:\Visual Studio\C#Labs\Lab2\Figures\bin\Debug\netcoreapp3.1\Figures.pdb
+D:\Visual Studio\C#Labs\Lab2\Figures\obj\Debug\netcoreapp3.1\Figures.csprojAssemblyReference.cache
+D:\Visual Studio\C#Labs\Lab2\Figures\obj\Debug\netcoreapp3.1\Figures.AssemblyInfoInputs.cache
+D:\Visual Studio\C#Labs\Lab2\Figures\obj\Debug\netcoreapp3.1\Figures.AssemblyInfo.cs
+D:\Visual Studio\C#Labs\Lab2\Figures\obj\Debug\netcoreapp3.1\Figures.csproj.CoreCompileInputs.cache
+D:\Visual Studio\C#Labs\Lab2\Figures\obj\Debug\netcoreapp3.1\Figures.dll
+D:\Visual Studio\C#Labs\Lab2\Figures\obj\Debug\netcoreapp3.1\Figures.pdb
+D:\Visual Studio\C#Labs\Lab2\Figures\obj\Debug\netcoreapp3.1\Figures.genruntimeconfig.cache

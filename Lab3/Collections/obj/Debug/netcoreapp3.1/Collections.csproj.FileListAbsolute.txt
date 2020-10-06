@@ -1,0 +1,13 @@
+D:\Visual Studio\C#Labs\Lab3\Collections\bin\Debug\netcoreapp3.1\Collections.exe
+D:\Visual Studio\C#Labs\Lab3\Collections\bin\Debug\netcoreapp3.1\Collections.deps.json
+D:\Visual Studio\C#Labs\Lab3\Collections\bin\Debug\netcoreapp3.1\Collections.runtimeconfig.json
+D:\Visual Studio\C#Labs\Lab3\Collections\bin\Debug\netcoreapp3.1\Collections.runtimeconfig.dev.json
+D:\Visual Studio\C#Labs\Lab3\Collections\bin\Debug\netcoreapp3.1\Collections.dll
+D:\Visual Studio\C#Labs\Lab3\Collections\bin\Debug\netcoreapp3.1\Collections.pdb
+D:\Visual Studio\C#Labs\Lab3\Collections\obj\Debug\netcoreapp3.1\Collections.csprojAssemblyReference.cache
+D:\Visual Studio\C#Labs\Lab3\Collections\obj\Debug\netcoreapp3.1\Collections.AssemblyInfoInputs.cache
+D:\Visual Studio\C#Labs\Lab3\Collections\obj\Debug\netcoreapp3.1\Collections.AssemblyInfo.cs
+D:\Visual Studio\C#Labs\Lab3\Collections\obj\Debug\netcoreapp3.1\Collections.csproj.CoreCompileInputs.cache
+D:\Visual Studio\C#Labs\Lab3\Collections\obj\Debug\netcoreapp3.1\Collections.dll
+D:\Visual Studio\C#Labs\Lab3\Collections\obj\Debug\netcoreapp3.1\Collections.pdb
+D:\Visual Studio\C#Labs\Lab3\Collections\obj\Debug\netcoreapp3.1\Collections.genruntimeconfig.cache

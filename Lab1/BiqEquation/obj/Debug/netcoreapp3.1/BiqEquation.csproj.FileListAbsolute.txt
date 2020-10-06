@@ -1,0 +1,13 @@
+D:\Visual Studio\C#Labs\Lab1\BiqEquation\bin\Debug\netcoreapp3.1\BiqEquation.exe
+D:\Visual Studio\C#Labs\Lab1\BiqEquation\bin\Debug\netcoreapp3.1\BiqEquation.deps.json
+D:\Visual Studio\C#Labs\Lab1\BiqEquation\bin\Debug\netcoreapp3.1\BiqEquation.runtimeconfig.json
+D:\Visual Studio\C#Labs\Lab1\BiqEquation\bin\Debug\netcoreapp3.1\BiqEquation.runtimeconfig.dev.json
+D:\Visual Studio\C#Labs\Lab1\BiqEquation\bin\Debug\netcoreapp3.1\BiqEquation.dll
+D:\Visual Studio\C#Labs\Lab1\BiqEquation\bin\Debug\netcoreapp3.1\BiqEquation.pdb
+D:\Visual Studio\C#Labs\Lab1\BiqEquation\obj\Debug\netcoreapp3.1\BiqEquation.csprojAssemblyReference.cache
+D:\Visual Studio\C#Labs\Lab1\BiqEquation\obj\Debug\netcoreapp3.1\BiqEquation.AssemblyInfoInputs.cache
+D:\Visual Studio\C#Labs\Lab1\BiqEquation\obj\Debug\netcoreapp3.1\BiqEquation.AssemblyInfo.cs
+D:\Visual Studio\C#Labs\Lab1\BiqEquation\obj\Debug\netcoreapp3.1\BiqEquation.csproj.CoreCompileInputs.cache
+D:\Visual Studio\C#Labs\Lab1\BiqEquation\obj\Debug\netcoreapp3.1\BiqEquation.dll
+D:\Visual Studio\C#Labs\Lab1\BiqEquation\obj\Debug\netcoreapp3.1\BiqEquation.pdb
+D:\Visual Studio\C#Labs\Lab1\BiqEquation\obj\Debug\netcoreapp3.1\BiqEquation.genruntimeconfig.cache
