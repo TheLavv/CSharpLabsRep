@@ -8,3 +8,6 @@ D:\Visual Studio\C#Labs\Lab4\obj\Debug\Lab4.csproj.GenerateResource.cache
 D:\Visual Studio\C#Labs\Lab4\obj\Debug\Lab4.csproj.CoreCompileInputs.cache
 D:\Visual Studio\C#Labs\Lab4\obj\Debug\Lab4.exe
 D:\Visual Studio\C#Labs\Lab4\obj\Debug\Lab4.pdb
+D:\Visual Studio\C#Labs\Lab4\bin\Debug\Lab5.dll
+D:\Visual Studio\C#Labs\Lab4\bin\Debug\Lab5.pdb
+D:\Visual Studio\C#Labs\Lab4\obj\Debug\Lab4.csproj.CopyComplete

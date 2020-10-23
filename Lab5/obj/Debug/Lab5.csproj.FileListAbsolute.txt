@@ -1,0 +1,11 @@
+D:\Visual Studio\Lab5\bin\Debug\Lab5.dll
+D:\Visual Studio\Lab5\bin\Debug\Lab5.pdb
+D:\Visual Studio\Lab5\obj\Debug\Lab5.csproj.CoreCompileInputs.cache
+D:\Visual Studio\Lab5\obj\Debug\Lab5.dll
+D:\Visual Studio\Lab5\obj\Debug\Lab5.pdb
+D:\Visual Studio\C#Labs\Lab5\bin\Debug\Lab5.dll
+D:\Visual Studio\C#Labs\Lab5\bin\Debug\Lab5.pdb
+D:\Visual Studio\C#Labs\Lab5\obj\Debug\Lab5.csprojAssemblyReference.cache
+D:\Visual Studio\C#Labs\Lab5\obj\Debug\Lab5.csproj.CoreCompileInputs.cache
+D:\Visual Studio\C#Labs\Lab5\obj\Debug\Lab5.dll
+D:\Visual Studio\C#Labs\Lab5\obj\Debug\Lab5.pdb
