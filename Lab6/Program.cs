@@ -30,7 +30,7 @@ namespace Lab6
             Console.WriteLine(str + " " + result.ToString());
         }
 
-        /*static void Main(string[] args)
+        static void Main(string[] args)
         {
             PlusOrMinus pm = new PlusOrMinus(Plus);
             PlusOrMinusUse1("Это целое число", 1, 1.5, true, Plus);
@@ -42,7 +42,7 @@ namespace Lab6
                     return (x - y);
             }
             );
-        }*/
+        }
 
     }
 

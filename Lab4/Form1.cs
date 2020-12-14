@@ -16,7 +16,6 @@ namespace Lab4
     public partial class Form1 : Form
     {
         List<string> word_list = new List<string>();
-        List<string> result_list = new List<string>();
         public Form1()
         {
             InitializeComponent();
@@ -57,38 +56,51 @@ namespace Lab4
         private void button2_Click(object sender, EventArgs e)
         {
             Stopwatch extime = new Stopwatch();
-            extime.Start();
+            string new_str = "\0";
             Random rnd = new Random();
-            bool flag = false;
             button2.BackColor = Color.FromArgb(rnd.Next(0, 255),rnd.Next(0, 255), rnd.Next(0, 255));
             button2.ForeColor = Color.FromArgb(rnd.Next(0, 255), rnd.Next(0, 255), rnd.Next(0, 255));
             if (radioButton1.Checked == true)
             {
+                extime.Start();
                 for (int i = 0; i < word_list.Count; i++)
                 {
-                    if (word_list[i].Contains(textBox3.Text))
+                    if (word_list[i].Contains(textBox3.Text) && !listBox1.Items.Contains(word_list[i]))
                     {
-                        flag = true;
+                        new_str = word_list[i];
                         break;
+                    }
+                    else
+                        new_str = "\0";
+                }
+            }
+            else if (radioButton2.Checked == true)
+            {
+                extime.Start();
+                int max_dist;
+                if ((int.TryParse(textBox5.Text, out max_dist)))
+                {
+                    for (int i = 0; i < word_list.Count; i++)
+                    {
+                        if (LevDistance.VagnerCalculation(word_list[i], textBox3.Text) <= max_dist &&
+                            !listBox1.Items.Contains(word_list[i]))
+                        {
+                            new_str = word_list[i];
+                            break;
+                        }
+                        else
+                            new_str = "\0";
                     }
                 }
             }
             else
             {
-                int max_dist = int.Parse(textBox5.Text);
-                for (int i = 0; i < word_list.Count; i++)
-                {
-                    if (LevDistance.VagnerCalculation(word_list[i], textBox3.Text) <= max_dist)
-                    {
-                        flag = true;
-                        break;
-                    }
-                }
+                MessageBox.Show("Пожалуйста, выберите метод поиска слова!");
             }
-            if (flag && !listBox1.Items.Contains(textBox3.Text))
+            if (new_str[0] != '\0')
             {
                 listBox1.BeginUpdate();
-                listBox1.Items.Add(textBox3.Text);
+                listBox1.Items.Add(new_str);
                 listBox1.EndUpdate();
             }
             extime.Stop();

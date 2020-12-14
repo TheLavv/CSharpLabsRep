@@ -5,7 +5,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Reflection
+namespace Lab6Part2
 {
     class Program
     {
@@ -28,7 +28,6 @@ namespace Reflection
 
             return Result;
         }
-
         /// <summary>
         /// Получение информации о текущей сборке
         /// </summary>
@@ -39,17 +38,12 @@ namespace Reflection
             Console.WriteLine("Полное имя:" + i.FullName);
             Console.WriteLine("Исполняемый файл:" + i.Location);
         }
-
         /// <summary>
         /// Получение информации о типе
         /// </summary>
         static void TypeInfo()
         {
-            ForInspection obj = new ForInspection();
-            Type t = obj.GetType();
-
-            //другой способ
-            //Type t = typeof(ForInspection);
+            Type t = typeof(User);
 
             Console.WriteLine("\nИнформация о типе:");
             Console.WriteLine("Тип " + t.FullName + " унаследован от " + t.BaseType.FullName);
@@ -86,23 +80,19 @@ namespace Reflection
         }
 
         /// <summary>
-        /// Пример использования метода InvokeMember
+        /// Использования метода InvokeMember
         /// </summary>
         static void InvokeMemberInfo()
         {
-            Type t = typeof(ForInspection);
+            Type t = typeof(User);
             Console.WriteLine("\nВызов метода:");
 
             //Создание объекта
-            //ForInspection fi = new ForInspection();
-            //Можно создать объект через рефлексию
-            ForInspection fi = (ForInspection)t.InvokeMember(null, BindingFlags.CreateInstance, null, null, new object[] { });
+            User fi = new User("Andrey", 19);
+            //User fi = (User)t.InvokeMember(null, BindingFlags.CreateInstance, null, null, new object[] { });
 
-            //Параметры вызова метода
-            object[] parameters = new object[] { 3, 2 };
             //Вызов метода
-            object Result = t.InvokeMember("Plus", BindingFlags.InvokeMethod, null, fi, parameters);
-            Console.WriteLine("Plus(3,2)={0}", Result);
+            t.InvokeMember("PrintInfo", BindingFlags.InvokeMethod, null, fi, new object[] { });
         }
 
         /// <summary>
@@ -110,27 +100,24 @@ namespace Reflection
         /// </summary>
         static void AttributeInfo()
         {
-            Type t = typeof(ForInspection);
+            Type t = typeof(User);
             Console.WriteLine("\nСвойства, помеченные атрибутом:");
             foreach (var x in t.GetProperties())
             {
                 object attrObj;
-                if (GetPropertyAttribute(x, typeof(NewAttribute), out attrObj))
+                if (GetPropertyAttribute(x, typeof(DescriptionAttribute), out attrObj))
                 {
-                    NewAttribute attr = attrObj as NewAttribute;
-                    Console.WriteLine(x.Name + " - " + attr.Description);
+                    DescriptionAttribute attr = attrObj as DescriptionAttribute;
+                    Console.WriteLine(x.Name + " - " + attr.description);
                 }
             }
         }
-
-        /*static void Main(string[] args)
+        static void Main(string[] args)
         {
             AssemblyInfo();
             TypeInfo();
             InvokeMemberInfo();
             AttributeInfo();
-
-            Console.ReadLine();
-        }*/
+        }
     }
 }
